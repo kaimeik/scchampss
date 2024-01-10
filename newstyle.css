@@ -1,0 +1,690 @@
+/*
+Theme Name: Ultra Child 
+Author: Steven
+Author URI: happypeoplehappyfaces.com/
+Theme URI: https://purothemes.com/themes/ultra/
+Description: Champss, Choosing Healthy Appetizing Meal Plan Solutions for Seniors. Our program provides seniors with a dietitian-approved menu, giving them the ability to sit down and enjoy a complete meal together.
+Version: 1.0.0
+Template: ultra
+Text Domain: ultra
+Domain Path: /languages/
+*/
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+
+.customamount,.addamount {
+  color: black !important;
+}
+
+#primary .entry-content h1,
+#primary .entry-content h2,
+#primary .entry-content h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #3c763d;
+}
+#primary .entry-content h1 {
+    font-size: 2.2em;
+}
+#primary .entry-content h2 {
+    font-size: 2em;
+}
+#primary .entry-content h3 {
+    color: #bb2025;
+}
+#primary .entry-content h4,
+#primary .entry-content h5 {
+    font-family: 'Oleo Script', cursive;
+}
+p,
+ol,
+li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #635e61;
+}
+li {
+    font-size: 17px;
+}
+ol li>span {
+    font-weight: bold;
+}
+.underline:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 50px;
+    text-align: center;
+    background-color: #ffcc02;
+    margin-bottom: .5em;
+}
+a,
+a:visited {
+    color: #bb2025;
+}
+.add-meal-box {
+    font-size: 3.3em;
+    color: gray !important;
+    background: #eee;
+    padding: 45px;
+    margin-top: 17px;
+}
+/*Navigation Font-size*/
+
+.main-navigation div > ul > li > a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/*custom navigation color*/
+
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_ancestor > a,
+.main-navigation a.current-menu-item {
+    color: #bb2025;
+}
+.main-navigation div > ul > li > a:hover {
+    border-bottom: 3px solid #bb2025;
+    color: #bb2025;
+}
+.main-navigation ul li {
+    margin-right: 0.72em;
+}
+.main-navigation {
+    max-width: 78%;
+}
+.main-navigation ul ul li:hover > a {
+    background: #bb2025;
+    border-color: #bb2025;
+    color: #fff;
+}
+/*Menu cart custom color*/
+
+i.wpmenucart-icon-shopping-cart-0 {
+    color: #bb2025;
+}
+span.amount {
+    color: #bb2025;
+}
+.responsive-menu .main-navigation.toggled ul li a:hover {
+    background: #bb2025;
+}
+.page-id-7 .woocommerce #content table.cart .product-thumbnail {
+    display: block;
+}
+
+/*woocommerce custom codes begines here ----change the wooCommerce color theme*/
+
+.woocommerce #content input.button.alt:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce-page #content input.button.alt:hover,
+.woocommerce-page #respond input#submit.alt:hover,
+.woocommerce-page a.button.alt:hover,
+.woocommerce-page button.button.alt:hover,
+.woocommerce-page input.button.alt:hover {
+    background: red!important;
+    background-color: red!important;
+    color: white !important;
+    text-shadow: transparent !important;
+    box-shadow: none;
+    border-color: #bb2025 !important;
+}
+.woocommerce #content input.button:hover,
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce-page #content input.button:hover,
+.woocommerce-page #respond input#submit:hover,
+.woocommerce-page a.button:hover,
+.woocommerce-page button.button:hover,
+.woocommerce-page input.button:hover {
+    background: red !important;
+    background-color: red!important;
+    color: white !important;
+    text-shadow: transparent !important;
+    box-shadow: none;
+    border-color: #bb2025 !important;
+}
+.woocommerce #content input.button,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce-page #content input.button,
+.woocommerce-page #respond input#submit,
+.woocommerce-page a.button,
+.woocommerce-page button.button,
+.woocommerce-page input.button {
+    background: #bb2025 !important;
+    color: white !important;
+    text-shadow: transparent !important;
+    border-color: #bb2025 !important;
+}
+.woocommerce #content input.button.alt:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce-page #content input.button.alt:hover,
+.woocommerce-page #respond input#submit.alt:hover,
+.woocommerce-page a.button.alt:hover,
+.woocommerce-page button.button.alt:hover,
+.woocommerce-page input.button.alt:hover {
+    background: red!important;
+    box-shadow: none;
+    text-shadow: transparent !important;
+    color: white !important;
+    border-color: #bb2025 !important;
+}
+
+/*woocommerce widget shopping cart*/
+
+.widget_shopping_cart a.button.checkout.wc-forward {
+    padding: 0.7142em 0.7em;
+}
+
+/*woocommerce message line custom color*/
+
+.woocommerce-message {
+    border-top-color: #bb2025 !important;
+}
+
+/*Remove entry-header color*/
+
+.woocommerce .entry-header,
+.page .site-content .entry-header {
+    background: white;
+}
+
+.caption-wrap {
+    display: none !important;
+}
+
+/*woocommerce Product summary layout Adjustment*/
+
+label[for=pa_quantity] {
+    color: gray;
+    font-size: 18px !important;
+    margin-top: -10px;
+    margin-left: -18px;
+}
+
+.post-98 .woocommerce div.product form.cart table td {
+    padding-left: 12px !important;
+}
+.woocommerce div.product form.cart .reset_variations {
+    font-size: 1em;
+}
+.woocommerce div.quantity {
+    display: none !important;
+}
+p.price {
+    display: none;
+}
+th.product-quantity {
+    visibility: hidden !important;
+}
+td.product-quantity::before {
+    visibility: hidden;
+}
+
+/*Remove woocommerce product comments*/
+
+.woocommerce-tabs {
+    display: none;
+}
+/*woocommerce check out page---fix check-out problem*/
+#createaccount,
+div.woocommerce-terms-and-conditions-wrapper label>#terms {
+    position: inherit;
+}
+
+/*Button Style*/
+
+.btn {
+    cursor: pointer;
+    border-radius: 0;
+    margin: 10px;
+    text-decoration: none;
+    padding: 6px 20px;
+    font-size: 17px;
+    transition: all .6s;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -o-transition: all .6s;
+    display: inline-block;
+    margin-left: 0px;
+}
+.red {
+    color: #bb2025;
+    border: 1px #bb2025 solid;
+}
+.yellow,
+a.yellow {
+    color: #ffcc02;
+    border: 1px #ffcc02 solid;
+}
+.red:hover {
+    color: #fff;
+    background-color: #bb2025;
+}
+.yellow:hover {
+    color: #fff;
+    background-color: #ffcc02;
+}
+.s-space {
+    margin-bottom: 1.2em;
+}
+.m-space {
+    margin-bottom: 2.2em;
+}
+.l-space {
+    margin-bottom: 3.2em;
+}
+.xl-space {
+    margin-bottom: 4.2em;
+}
+.remove-space {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.remove-top-space {
+    margin-top: 0;
+    padding-top: 0;
+}
+#scroll-to-top {
+    background: rgba(0, 0, 0, 0.4);
+}
+.answer {
+    color: #bb2025;
+}
+
+/*----------- backgrounds ---------*/
+
+.site-footer .footer-main {
+    background: url("https://www.sfchampss.org/wp-content/uploads/2017/04/Champss-footer-bg2.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-webkit-background-size: cover;
+    background-size: cover;
+}
+.how-champss-works-gray-box {
+    background-color: rgba(0, 0, 0, .55);
+    color: white;
+    padding: 0 3% 1%;
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+.how-champss-works {
+    padding: 20%;
+    background: url("https://files.constantcontact.com/c6d9e1f6701/076e2555-edbf-4f90-b3ba-3c9041a66551.jpg") no-repeat center center scroll;
+    -webkit-webkit-background-size: cover;
+    -moz-webkit-background-size: cover;
+    -ms-webkit-background-size: cover;
+    -o-webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+div#single-comments-wrapper {
+    display: none;
+}
+
+/*Announcement*/
+
+article {
+    border-color: #eaeaeb;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 1em;
+    margin-bottom: 0px;
+}
+.announcement {
+    padding: 0 2em;
+    border: 1px #c5c5c5 solid;
+}
+#text-slider-controls {
+    font-size: 1em;
+    float: left !important;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+i.fa-8x {
+    font-size: 7.2em;
+    color: rgba(51, 51, 51, 0.63);
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+/*--Nutrition Ed--*/
+
+/*hover effect*/
+.box {
+    cursor: pointer;
+    width: 270px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+.box img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+.box .overbox {
+    background-color: rgba(255, 204, 2, 0.88);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff !important;
+    z-index: 100;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    padding: 25px 40px;
+}
+a.download-link {
+    color: white;
+}
+.box:hover .overbox {
+    opacity: 1;
+}
+.box .overtext {
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    transform: translateY(40px);
+    -webkit-transform: translateY(40px);
+}
+.box .title {
+    font-size: 2.2em;
+    line-height: 0.9;
+    color: white;
+    text-transform: uppercase;
+    opacity: 0;
+    transition-delay: 0.1s;
+    transition-duration: 0.2s;
+}
+.box:hover .title,
+.box:focus .title {
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+}
+.box .tagline {
+    font-size: 1.1em;
+    opacity: 0;
+    transition-delay: 0.2s;
+    transition-duration: 0.2s;
+}
+.box:hover .tagline,
+.box:focus .tagline {
+    color: #bb2025;
+    opacity: 1;
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+}
+
+.post-7744 h3 {
+    font-size: 1.3rem;
+}
+
+/*hover effect ends here*/
+
+/*footer*/
+.site-footer .bottom-bar {
+    background: #ffffff;
+}
+/*contact form*/
+
+.cfsFormShell .cfsSuccessMsg {
+    text-align: left !important;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    color: gray !important;
+    padding: 0px;
+}
+.woocommerce div.product div.images img {
+    display: block;
+    height: auto;
+    box-shadow: none;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* ------ Champss Restaurants -------- */
+
+.diagonal-line {
+    background: url("https://www.sfchampss.org/wp-content/uploads/2017/01/diagonal-line.png") no-repeat center center scroll;
+    -webkit-webkit-background-size: cover;
+    -moz-webkit-background-size: cover;
+    -ms-webkit-background-size: cover;
+    -o-webkit-background-size: cover;
+    background-size: cover;
+}
+.col-md-6.traditonal-cn {
+    margin-top: 15%;
+}
+#primary .entry-content .apply-champss h2 {
+    line-height: 1.2;
+    font-size: 26px;
+}
+/* ------ My-Account-page add icons-------- */
+.woocommerce-MyAccount-navigation ul {
+    list-style-type: none;
+    line-height: 2.2;
+}
+.woocommerce-MyAccount-navigation-link--dashboard a:before {
+    content: "\f009";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 18px;
+    padding-right: 0.5em;
+    top: 10px;
+    left: 0;
+}
+.woocommerce-MyAccount-navigation-link--orders a:before {
+    content: "\f108";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 18px;
+    padding-right: 0.5em;
+    top: 10px;
+    left: 0;
+}
+.woocommerce-MyAccount-navigation-link--downloads a:before {
+    content: "\f019";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 18px;
+    padding-right: 0.5em;
+    top: 10px;
+    left: 0;
+}
+.woocommerce-MyAccount-navigation-link--edit-address a:before {
+    content: "\f015";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 18px;
+    padding-right: 0.5em;
+    top: 10px;
+    left: 0;
+}
+.woocommerce-MyAccount-navigation-link--edit-account a:before {
+    content: "\f007";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 18px;
+    padding-right: 0.5em;
+    top: 10px;
+    left: 0;
+}
+.woocommerce-MyAccount-navigation-link--customer-logout a:before {
+    content: "\f08b";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 18px;
+    padding-right: 0.5em;
+    top: 10px;
+    left: 0;
+}
+
+/*--------EventBrite--------*/
+
+.eventbrite_events-template-default .iee_event_meta .iee_organizermain,
+.eventbrite_events > .entry-content h2 {
+    display: none;
+}
+
+.eventbrite_events-template-default h1.entry-title {
+    color: #3c763d;
+}
+
+.event-details {
+    padding: 15px 40px;
+	width: 100%;
+    background: #fafafa;
+    border: 1px solid #eeeeee;
+}
+.eventbrite_events-template-default .entry-meta .container > div {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.eventbrite_events-template-default .nav-links .nav-previous,
+.eventbrite_events-template-default .nav-links .nav-next {
+    font-size: 2em;
+}
+
+.eventbrite_events-template-default .nav-links .nav-previous:hover,
+.eventbrite_events-template-default .nav-links .nav-next:hover {
+    color: #ffcc02;
+}
+
+.eventbrite_events-template-default .nav-links .nav-previous a,
+.eventbrite_events-template-default .nav-links .nav-next a {
+    font-size: 16px !important;
+}
+
+/*--center register button--*/
+.register-btn {
+    cursor: pointer;
+    border-radius: 0;
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px 60px;
+    font-size: 17px;
+    transition: all .6s;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -o-transition: all .6s;
+    display: inline-block;
+    margin-left: 0px;
+}
+
+
+
+/*-------Delete eventbrite registration----*/
+#iee-eventbrite-checkout-widget {
+    display: none;
+}
+
+/*   ----- Tablet devices------*/
+
+@media (max-width: 992px) {
+    .diagonal-line {
+        background: none;
+    }
+    .col-md-6.traditonal-cn {
+    margin-top: 5px;
+}
+}
+
+/* ------ iPhone 6, 6S, 7 and 8 -------- */
+
+@media (max-width: 667px) {
+    .how-champss-works-gray-box {
+        display: none;
+    }
+}
+
+/* ------ Small devices -------- */
+
+@media (max-width: 480px) {
+    label[for=pa_quantity] {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: -10px;
+    }
+    .h2-line:after {
+        content: "";
+        display: block;
+        height: 3px;
+        width: 50px;
+        text-align: center;
+        background-color: #ffcc02;
+        margin-bottom: 0.5em;
+    }
+    .how-champss-works-gray-box {
+        display: none;
+    }
+    .woocommerce div.product div.images img {
+        display: block;
+        height: auto;
+        box-shadow: none;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .diagonal-line {
+        background: none;
+    }
+}
+
+
+/* additional styles */
+
+.choose-price-form {
+  float: left;
+}
+
+.cart_totals  h2 {
+  margin-top: 0;
+  line-height: 1;
+}
+
+.choose-price-form * {
+  font-size: 14px !important;
+}
